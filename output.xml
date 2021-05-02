@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.1 (Python 3.8.9 on win32)" generated="20210502 19:21:35.477" rpa="false" schemaversion="2">
+<suite id="s1" name="TC First" source="C:\Users\priya pandey\PycharmProjects\robotProject\TC_First.robot">
+<test id="s1-t1" name="TC_001_Basic Check">
+<kw name="Log" library="BuiltIn">
+<arg>Welcome to VDS TECH LABS</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20210502 19:21:35.650" level="INFO">Welcome to VDS TECH LABS</msg>
+<status status="PASS" starttime="20210502 19:21:35.650" endtime="20210502 19:21:35.650"/>
+</kw>
+<status status="PASS" starttime="20210502 19:21:35.649" endtime="20210502 19:21:35.650"/>
+</test>
+<test id="s1-t2" name="TC_001_Selenium operation">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210502 19:21:35.652" level="INFO">Opening browser 'Chrome' to base url 'http://way2automation.com/way2auto_jquery/index.php'.</msg>
+<status status="PASS" starttime="20210502 19:21:35.652" endtime="20210502 19:21:53.401"/>
+</kw>
+<status status="PASS" starttime="20210502 19:21:35.651" endtime="20210502 19:21:53.401"/>
+</test>
+<status status="PASS" starttime="20210502 19:21:35.478" endtime="20210502 19:21:53.402"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="TC First">TC First</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

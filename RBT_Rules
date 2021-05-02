@@ -1,0 +1,43 @@
+robotFramework
+intellibot -->For PyCharm
+RED --> Eclipse
+
+1. Install intellibot plugin that supports .robot file.
+2. Install robot framework:
+                        pip install robotframework
+
+3. Install selenium library in robot framework:
+                                pip install robotframework-seleniumlibrary
+                                pip uninstall robotframework-seleniumlibrary
+                                pip install robotframework-seleniumlibrary==4.5.0
+
+---------------------------------------------
+Robot Framework has 4 section:
+-----
+1. Settings
+	Basic Configurations
+	Imports
+	Documentation
+	Test Suite
+	Test Setups / Tear downs
+	Timers
+
+2. Keywords
+	In-Built Keywords
+	User Defined Keywords
+	Keywords = Function in Python
+
+3. Variables
+	Key=Value
+
+4. Test Cases
+	Here, we write test cases.
+---------------------------------------------
+STEPS:
+    1. We need to put double space for every keywords
+    2. log is equals to print in python.
+    3. Whenever we run test cases (by using .robot FileName.robot)
+        i. It will generate 3 files:
+            a. Output file
+            b. log file
+            c. report file
